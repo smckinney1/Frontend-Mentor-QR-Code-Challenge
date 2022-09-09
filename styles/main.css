@@ -26,6 +26,7 @@ body {
   flex-direction: column;
 }
 
+/* FIXME: Not visually accessible at higher zoom settings (footer content overlaps main content) */
 footer {
   bottom: 0;
   position: absolute;
