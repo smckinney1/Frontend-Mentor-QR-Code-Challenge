@@ -1,7 +1,5 @@
 /* My styles */
 :root {
-  --footer-height: 14px;
-
   /* Fonts */
   --font-weight-bold: 700;
   --font-weight-regular: 400;
@@ -15,21 +13,8 @@
   --white: hsl(0, 0%, 100%);
 }
 
-body {
-  background: var(--light-gray);
-  font-family: 'Outfit', sans-serif;
-  height: 100vh;
-
-  /* Flexbox */
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-/* FIXME: Not visually accessible at higher zoom settings (footer content overlaps main content) */
-footer {
-  bottom: 0;
-  position: absolute;
+html, body, .app-container {
+  height: 100%;
 }
 
 h1 {
@@ -44,8 +29,17 @@ p {
   font-size: 0.9375rem;
 }
 
-main {
-  flex: 1 1 auto;
+.app-container {
+  background: var(--light-gray);
+  font-family: 'Outfit', sans-serif;
+
+
+  /* Flexbox */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 75px;
 }
 
 .qr-container {
@@ -67,7 +61,7 @@ main {
 
 /* Pre-made styles */
 .attribution {
-  font-size: 0.75rem;
+  font-size: 0.75rem; /* Changed from original 11px */
   text-align: center;
 }
 
