@@ -10,12 +10,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -55,11 +51,6 @@ Having a beginner mindset is highly beneficial even at mid and senior levels (an
 </footer>
 ```
 
-
-### Continued development
-
-N/A. Simple practice project.
-
 ### Useful resources
 
 - [The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/) - Provides further reading for anyone interested on when to use em, rem, and px.
@@ -67,7 +58,3 @@ N/A. Simple practice project.
 ## Author
 
 - Frontend Mentor - [@smckinney1](https://www.frontendmentor.io/profile/smckinney1)
-
-## Acknowledgments
-
-N/A
