@@ -34,8 +34,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - Accessibility patterns
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 This served as a practice project for me, an opportunity to get back to basics after several years of experience working in front end, especially React.
